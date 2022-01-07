@@ -1,0 +1,156 @@
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	z-index: 999;
+	padding: 72px;
+	background-color: white;
+}
+
+.a-header{
+	display: inline-block;
+	font-size: 30px;
+	color: #4B647E;
+	vertical-align:  middle;
+	margin-right: 1000px;
+}
+nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
+}
+.li-header{
+	color: #3D37F1;
+	font-size: 20px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.div-s1{
+	margin-top: 265px;
+	width: 550px;
+	height: 526px;
+	display: inline-block;
+	
+}
+.h1-s1{
+	font-size: 78px;
+	color: #534D4D;
+	width: 550px;
+}
+.p-s1{
+	font-size: 22px;
+	color: #534D4D;
+	margin-top: 40px;
+	margin-bottom: 170px;
+}
+
+.button-s1{
+	font-size: 23px;
+	color: white;
+	background-color: #3D37F1;
+	width: 264px;
+	height: 80px;
+	border-radius: 40px;
+	vertical-align: middle;
+
+}
+.button-s1::before{
+	content: url(../images/hand.png);
+	margin-right: 40px;
+	vertical-align: middle;
+}
+
+/*section 2*/
+.div-a-s2{
+	width: 700px;
+	margin: 0 auto;
+}
+.h5-s2{
+	margin-top: 300px;
+	color: #3D37F1;
+	font-size: 20px;
+	text-align: center;
+}
+.h2-s2{
+	color: #5A5454;
+	font-size: 40px;
+	text-align: center;
+}
+.p-s2{
+	color: #747474;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+/*box*/
+.div-b-s2{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 60px;
+}
+.box{
+	position: relative;
+	border: 2px solid white;
+	width: 370px;
+	height: 450px;
+
+}
+.box.color1{
+	background-color: #FBBA77;
+}
+
+.box.color2{
+	background-color: #41EAE3;
+}
+
+.box.color3{
+	background-color: #69529F;
+}
+
+.box.color4{
+	background-color: #4386D2;
+}
+
+.box.color5{
+	background-color: #A5A2F6;
+}
+
+.box.color6{
+	background-color: #FF8088;
+}
+
+
+.img-box{
+  	margin-top: 70px;
+  	margin-bottom: 70px;
+  	margin-left: 135px;
+}
+
+.h6-box{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.p-box{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.button-box{;
+	width: 130px;
+	height: 45px;
+	border-radius: 20px;
+	margin-left: 120px;
+}
+
